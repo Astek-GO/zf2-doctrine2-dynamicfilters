@@ -1,0 +1,15 @@
+{
+    "name" : "astek-go/zf2-doctrine2-dynamicfilters",
+    "description" : "Zf2Doctrine2DynamicFilters - Create ZF2 filter forms from doctrine entities",
+    "homepage" : "https://github.com/Astek-GO/zf2-doctrine2-dynamicfilters",
+    "autoload": {
+        "psr-4": {
+            "Zf2Doctrine2DynamicFilters\\": "Zf2Doctrine2DynamicFilters/"
+        }
+    },
+    "require": {
+        "doctrine/orm" : "2.4.*",
+        "happyr/doctrine-specification": "0.6.0",
+        "zendframework/zendframework" : "~2.2"
+    }
+}
